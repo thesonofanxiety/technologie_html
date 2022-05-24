@@ -78,7 +78,8 @@ img {
     margin: 2em;
     overflow: hidden;
     min-height: fit-content;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: .3em;
 }
 
 .flexgrid.div {
