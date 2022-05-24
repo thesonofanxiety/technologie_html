@@ -1,0 +1,98 @@
+html *
+{
+   font-size: 1em;
+   font-family: Helvetica, sans-serif;
+}
+#first {
+    padding-top: 3em;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255,244,255,1) 0%, rgba(236,255,254,1) 50%, rgba(233,255,245,1) 100%);
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em;
+}
+
+h2 {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin:1em;
+}
+
+p.long {
+    text-align: justify;
+}
+
+table, th, td {
+    border: 1px;
+}
+
+img {
+    max-height: 400px;
+    width: auto;
+}
+
+.nav {
+    background-color: rgb(92, 92, 92);
+    overflow: clip;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    max-height: 3em;
+}
+  
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+
+.nav a.active {
+    background-color: #000000;
+    color: rgb(216, 216, 216);
+}
+
+.flexgrid{
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+    overflow: hidden;
+    min-height: fit-content;
+    justify-content: space-around;
+}
+
+.flexgrid.div {
+    flex: 1 1 33px;
+    background-color: antiquewhite;
+    min-width: 10em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 400px;
+    gap: 10px;
+    justify-items: center;
+    align-items: start;
+    margin: 1em
+}
