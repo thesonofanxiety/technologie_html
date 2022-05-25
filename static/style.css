@@ -23,7 +23,7 @@ h2 {
     font-size: 2em;
 }
 
-p {
+p, li {
     font-family: "Lucida Console", "Courier New", monospace;
     margin:1em;
 }
